@@ -1,0 +1,38 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.rock {
+    width: 40px;
+}
+.onebit{
+    width: 200px;
+}
+.main{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.botaoHead{
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.botaoHead:hover{
+    border-color: red;
+}
